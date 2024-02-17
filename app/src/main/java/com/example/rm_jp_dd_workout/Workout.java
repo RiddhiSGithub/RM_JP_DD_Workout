@@ -15,37 +15,7 @@ public class Workout {
         this.height = height;
     }
 
-    public int getSteps() {
-        return steps;
-    }
 
-    public void setSteps(int steps) {
-        this.steps = steps;
-    }
-
-    public int getWeight() {
-        return weight;
-    }
-
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
-
-    public float getCalories() {
-        return calories;
-    }
-
-    public void setCalories(float calories) {
-        this.calories = calories;
-    }
 
     public float calculateCalories()
     {
