@@ -5,4 +5,5 @@
     <string name="enter_height_in_cm">Enter Height in CM.</string>
     <string name="add_session">Add Session</string>
     <string name="zero">0</string>
+    <string name="result">Steps:00 Weight:00 Height:00 Calories:00</string>
 </resources>
