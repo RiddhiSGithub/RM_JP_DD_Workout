@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RM_JP_DD_Workout</string>
+    <string name="choose_step_count">Choose Step count(Step per Minute)</string>
+    <string name="enter_weight_in_kg">Enter Weight in KG.</string>
+    <string name="enter_height_in_cm">Enter Height in CM.</string>
+    <string name="add_session">Add Session</string>
+    <string name="zero">0</string>
+</resources>

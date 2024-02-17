@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView_stepCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_step_count"
+        android:textColor="@color/orange"
+        android:textSize="10sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar_stepsPerMinute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:thumbTint="@color/gray"
+        android:progressTint="@color/gray"
+        />
+
+    <TextView
+        android:id="@+id/textView_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:textSize="13sp"
+        android:text="@string/zero" />
+
+    <EditText
+        android:id="@+id/editText_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:inputType="numberDecimal"
+        android:hint="@string/enter_weight_in_kg"
+        android:textAlignment="center"
+        android:textColorHint="@color/orange"
+        />
+
+    <EditText
+        android:id="@+id/editText_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="13sp"
+        android:textAlignment="center"
+        android:hint="@string/enter_height_in_cm"
+        android:textColorHint="@color/orange"
+        />
+
+    <Button
+        android:id="@+id/button_addSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_session"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:backgroundTint="@color/orange"
+        />
+</LinearLayout>
