@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:padding="33dp">
     <TextView
-        android:id="@+id/textView_stepCount"
+        android:id="@+id/textView_Sessions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/result"
