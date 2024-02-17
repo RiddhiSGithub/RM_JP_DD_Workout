@@ -21,10 +21,12 @@
         android:layout_height="wrap_content"
         android:thumbTint="@color/gray"
         android:progressTint="@color/gray"
+        android:min="0"
+        android:max="0"
         />
 
     <TextView
-        android:id="@+id/textView_weight"
+        android:id="@+id/txtViewSeekBarProgress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/orange"
